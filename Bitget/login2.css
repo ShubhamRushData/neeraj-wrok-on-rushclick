@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.Login{
+   
+    width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   background-color:#010d18;
+}
+.page{
+    display: flex;
+   justify-content: center;
+  
+}
+
+.Login .log-page{
+    height:642px ;
+    width: 400px;
+
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+.Login .log-page img{
+    height: 30px;
+    width:150px ;
+    margin-top: 20px;
+}
+
+.Login .log-page .inner-page{
+    /* height:300px ;
+    width: 360px; */
+    padding: 50px 0px;
+    /* box-shadow: 4px 2px 2px rgba(210, 204, 204, 0.3); */
+    border-left: 1px solid #00c2ff;
+    border-top: 1px solid #00c2ff;
+    display: flex;
+   
+    
+    justify-content: center;
+    gap: 30px;
+    background-image: url(https://bitgettraders.com/assets/img/bg/contact_bg.png);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cont{
+  margin: 0px;
+}
+.content h1{
+    padding: 0px 90px;
+    font-size: 40px;
+    color: #00c4f4;
+}
+.content p{
+    padding: 5px 20px;
+    color: aliceblue;
+    
+}
+
+.details{
+   
+    font-size: 14px;
+    display: flex; 
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.details form input{
+   padding: 7px 60px;
+   border: none;
+   border: 1px solid rgb(242, 236, 236);
+   border-radius: 5px;
+   margin: 10px;
+}
+#error-Email, #error-Password{
+    border: none;
+    color: rgb(253, 8, 8);
+    font-size: 12px;
+    /* margin: 20px; */
+    /* margin-left: 80px; */
+    padding: 5px;
+    display: none;
+
+
+}
+.log-in{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.log-in .log{
+    
+    height: 30px;
+    width: 280px;
+    background-color: #00c2ff;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #f1fAff;
+    border: none;
+    margin-right: 30px;
+}
+.log-in .log:hover{
+    cursor: pointer;
+    background-color: #51c6ea;
+}
+
+
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 120px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .text-input {
+        font-size: 0.9rem;
+    }
+
+    .log {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .page {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+
+    .text-input {
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+
+    .log {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+}
